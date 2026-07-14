@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { profile } from '../data/profile'
 
-const username = 'octocat' // placeholder — replace with Akash's real GitHub username
+const username = 'AkashSingh8391' // placeholder — replace with Akash's real GitHub username
 
 export default function GithubStats() {
   return (
