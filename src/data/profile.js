@@ -17,12 +17,12 @@ export const education = [
     degree: 'B.Tech, Computer Science Engineering',
     school: 'Amity University, Gwalior',
     period: '2022 — 2026',
-    detail: 'Coursework in Data Structures & Algorithms, DBMS, OOP, Operating Systems, and Web Technologies.',
+    detail: 'Coursework in Data Structures & Algorithms, Database Systems, OOP, REST APIs, and Web Technologies.',
   },
   {
     degree: 'Higher Secondary (XII), Science',
     school: 'Madhya Pradesh',
-    period: '2021 — 2022',
+    period: '2020 — 2021',
     detail: 'Focused on Physics, Chemistry, and Mathematics.',
   },
 ]
@@ -52,5 +52,5 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/akash-singh-0a2032268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BhbYcyzVMQt2SMS5AkAhq0Q%3D%3D',
   resumeUrl: '/AkashSingh.pdf',
   about:
-    "I'm a final-year Computer Science Engineering student who builds full-stack web applications with React on the frontend and Java + Spring Boot on the backend. I care about writing code that's scalable, readable, and genuinely useful — not just functional. Outside of coursework, I spend my time sharpening my DSA fundamentals and shipping small projects end-to-end, from database schema to deployed UI.",
+    "I have completed my B.Tech in Computer Science Engineering and am currently awaiting my final results. I am a Full-Stack Developer with hands-on experience in building responsive web applications using React.js, Java, and Spring Boot. I have worked on developing modern user interfaces, RESTful APIs, authentication systems, and database-driven applications. Passionate about building scalable software, I continuously strengthen my problem-solving skills through Data Structures and Algorithms while developing real-world projects.",
 }
