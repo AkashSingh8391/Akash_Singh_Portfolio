@@ -20,36 +20,8 @@ export default function GithubStats() {
       </motion.div>
 
       <div className="grid md:grid-cols-2 gap-6 mt-8">
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-60px' }}
-          transition={{ duration: 0.5 }}
-          className="glass-card p-4 overflow-hidden"
-        >
-          <img
-            loading="lazy"
-            className="w-full h-auto rounded-lg"
-            src={`https://streak-stats.demolab.com?user=${username}&theme=transparent&hide_border=true&ring=4F7DF9&fire=9D5CFF&currStreakLabel=E8ECF7`}
-            alt="GitHub streak stats"
-          />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-60px' }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="glass-card p-4 overflow-hidden"
-        >
-          <img
-            loading="lazy"
-            className="w-full h-auto rounded-lg"
-            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=transparent&hide_border=true&title_color=6E93FF&text_color=B7BFD6`}
-            alt="Top languages"
-          />
-        </motion.div>
-
+        
+        
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
