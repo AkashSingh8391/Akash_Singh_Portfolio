@@ -50,7 +50,7 @@ export const profile = {
   email: 'akashgurjar6266@gmail.com',
   github: 'https://github.com/AkashSingh8391',
   linkedin: 'https://www.linkedin.com/in/akash-singh-0a2032268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BhbYcyzVMQt2SMS5AkAhq0Q%3D%3D',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/AkashSingh.pdf',
   about:
     "I'm a final-year Computer Science Engineering student who builds full-stack web applications with React on the frontend and Java + Spring Boot on the backend. I care about writing code that's scalable, readable, and genuinely useful — not just functional. Outside of coursework, I spend my time sharpening my DSA fundamentals and shipping small projects end-to-end, from database schema to deployed UI.",
 }
