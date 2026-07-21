@@ -11,8 +11,13 @@ const accentClasses = {
 
 export default function Projects() {
   const [filter, setFilter] = useState('all')
-  const visible = projects.filter((p) => filter === 'all' || p.category === filter)
-
+const visible = projects.filter(
+  (p) =>
+    filter === 'all' ||
+    (Array.isArray(p.category)
+      ? p.category.includes(filter)
+      : p.category === filter)
+)
   return (
     <section id="projects" className="section-wrap">
       <motion.div
