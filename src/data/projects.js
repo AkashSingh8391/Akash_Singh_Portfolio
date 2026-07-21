@@ -3,7 +3,7 @@ export const projects = [
     id: 'rakshak',
     name: 'RAKSHAK',
     subtitle: 'Human Safety System',
-    category: 'java',
+    category: ['java'],
     status: 'In Progress',
     description:
       'A real-time emergency response platform that lets users trigger SOS alerts and routes them instantly to police responders. Built with secure JWT authentication, role-based access control, and a live-updating dashboard for responders to act fast when it matters most.',
@@ -22,7 +22,7 @@ export const projects = [
     id: 'samvardhan',
     name: 'SAMVARDHAN SAUDHAMINI',
     subtitle: 'Home Automation System',
-    category: 'java',
+    category: ['java'],
     status: 'Completed',
     description:
       'A smart home automation system built on core Java technologies, giving users a simple interface to control and monitor home appliances efficiently from a central console.',
@@ -32,7 +32,7 @@ export const projects = [
       'Modular Java architecture',
       'Clean, intuitive interface',
     ],
-        github: '#',
+        github: 'https://github.com/AkashSingh8391/Samvardhan-Saudamini',
     demo: '#',
     accent: 'violet',
   },
