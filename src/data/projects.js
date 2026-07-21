@@ -32,8 +32,8 @@ export const projects = [
       'Modular Java architecture',
       'Clean, intuitive interface',
     ],
-    github: 'https://github.com/AkashSingh8391/Infra_Pulse',
-    demo: 'https://infrapulse-drab.vercel.app',
+        github: '#',
+    demo: '#',
     accent: 'violet',
   },
   {
@@ -49,8 +49,9 @@ export const projects = [
       'Map-based complaint reporting with photo upload',
       'Role-based dashboards for citizens, officers, managers, and admins',
     ],
-    github: '#',
-    demo: '#',
+
+    github: 'https://github.com/AkashSingh8391/Infra_Pulse',
+    demo: 'https://infrapulse-drab.vercel.app',
     accent: 'blue',
   },
 ]
